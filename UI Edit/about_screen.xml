@@ -1,17 +1,17 @@
 <component>
     <view>
-        <lv_obj id="root" width="240" height="320" bg_color="0xFFE4E1" flex_flow="column">
+        <lv_obj id="root" width="240" height="320" style_bg_color="0xFFE4E1" flex_flow="column">
             
             <!-- Header -->
-            <lv_obj id="header" width="100%" height="42" bg_color="0xFFFFFF" bg_opa="200" flex_flow="row" flex_main_place="space_between" flex_cross_place="center" pad_left="10" pad_right="10">
+            <lv_obj id="header" width="100p" height="42" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" flex_align_main="space_between" flex_align_cross="center" style_pad_left="10" style_pad_right="10">
                 <lv_label text="About" />
-                <lv_button id="btn_back" width="34" height="34" bg_color="0xFFB6C1">
+                <lv_button id="btn_back" width="34" height="34" style_bg_color="0xFFB6C1">
                     <lv_label text="&lt;" align="center" />
                 </lv_button>
             </lv_obj>
 
             <!-- Content -->
-            <lv_obj id="content" width="100%" height="278" bg_opa="0" flex_flow="column" pad_all="10" pad_row="10" scroll_dir="y">
+            <lv_obj id="content" width="100p" height="278" style_bg_opa="0" flex_flow="column" style_pad_all="10" style_pad_row="10" scroll_dir="y">
                 
                 <lv_label width="220" text="Created by: Ubairrr\nFrontend made on LVGL\n\nHardware Specs:\nESP32-S3 16MB Flash, 8MB RAM.\nDisplay: ILI9341 240x320\n\nPin Mapping:\nCamera:\n  XCLK:15, PCLK:13, VSYNC:6\n  HREF:7, SDA:4, SCL:5\n  D0-D7: 11,9,8,10,12,18,17,16\n\nDisplay:\n  MOSI:14, SCLK:21, MISO:1\n  CS:41, DC:42, RST:47, TOUCH:2\n\nSD Card (SDMMC):\n  CMD:38, CLK:39, D0:40" />
                 
