@@ -1,0 +1,9 @@
+<screen>
+    <styles>
+        <style name="style_main" width="100%" height="100%" bg_color="0xffffff" />
+    </styles>
+    
+    <view style="style_main">
+        <lv_label text="Hello, LVGL from AI!" align="center" />
+    </view>
+</screen>
