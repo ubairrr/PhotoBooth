@@ -2,17 +2,17 @@
     <view style_bg_color="0xFFE4E1" width="100%" height="100%">
         <!-- Header -->
         <lv_obj width="100%" height="42" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" style_flex_main_place="space_between" style_flex_cross_place="center">
-            <lv_button id="btn_back" width="34" height="34" style_bg_color="0xFFB6C1" style_radius="8">
+            <lv_button name="btn_back" width="34" height="34" style_bg_color="0xFFB6C1" style_radius="8">
                 <lv_label text="&lt;" align="center" style_text_color="0xFFFFFF" />
             </lv_button>
             <lv_label text="Gallery" style_text_color="0xFF69B4" />
-            <lv_button id="btn_share" width="34" height="34" style_bg_color="0xFFB6C1" style_radius="8">
+            <lv_button name="btn_share" width="34" height="34" style_bg_color="0xFFB6C1" style_radius="8">
                 <lv_label text="Wi-Fi" align="center" style_text_color="0xFFFFFF" />
             </lv_button>
         </lv_obj>
 
         <!-- Grid -->
-        <lv_obj width="100%" height="236" y="42" style_bg_opa="0" flex_flow="row_wrap" style_pad_all="8" style_pad_row="8" style_pad_column="8" scroll_dir="y">
+        <lv_obj width="100%" height="236" y="42" style_bg_opa="0" flex_flow="row_wrap" style_pad_all="8" style_pad_row="8" style_pad_column="8" scrollable="true">
             <lv_obj width="65" height="65" style_bg_color="0xFFFFFF" style_radius="5" />
             <lv_obj width="65" height="65" style_bg_color="0xFFFFFF" style_radius="5" />
             <lv_obj width="65" height="65" style_bg_color="0xFFFFFF" style_radius="5" />
