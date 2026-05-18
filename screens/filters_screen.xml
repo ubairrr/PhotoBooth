@@ -1,33 +1,33 @@
 <screen>
-    <view style_bg_color="0xFFE4E1" width="100%" height="100%" flex_flow="column">
+    <view style_bg_color="0xFFE4E1" width="100%" height="100%">
         <!-- Header -->
         <lv_obj width="100%" height="42" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" style_flex_main_place="space_between" style_flex_cross_place="center" style_pad_left="10" style_pad_right="10">
             <lv_label text="Filters" />
-            <lv_button width="34" height="34" style_bg_color="0xFFB6C1">
+            <lv_button name="btn_close" width="34" height="34" style_bg_color="0xFFB6C1">
                 <lv_label text="X" align="center" />
             </lv_button>
         </lv_obj>
 
         <!-- Grid -->
-        <lv_obj width="100%" flex_grow="1" style_bg_opa="0" flex_flow="row_wrap" style_pad_all="8" style_pad_row="8" style_pad_column="8" scrollable="true">
-            <lv_button width="104" height="86" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4" flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center">
-                <lv_image src="images/cat_idle.png" />
-                <lv_label text="Normal" />
+        <lv_obj width="100%" height="278" y="42" style_bg_opa="0" flex_flow="row_wrap" style_pad_all="8" style_pad_row="8" style_pad_column="8" scrollable="true">
+            <lv_button width="104" height="86" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4">
+                <lv_image src="images/cat_idle.png" align="top_mid" y="5" />
+                <lv_label text="Normal" align="bottom_mid" y="-5" />
             </lv_button>
 
-            <lv_button width="104" height="86" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4" flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center">
-                <lv_image src="images/cat_idle.png" />
-                <lv_label text="Vivid" />
+            <lv_button width="104" height="86" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4">
+                <lv_image src="images/cat_idle.png" align="top_mid" y="5" />
+                <lv_label text="Vivid" align="bottom_mid" y="-5" />
             </lv_button>
 
-            <lv_button width="104" height="86" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4" flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center">
-                <lv_image src="images/cat_idle.png" />
-                <lv_label text="Blush" />
+            <lv_button width="104" height="86" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4">
+                <lv_image src="images/cat_idle.png" align="top_mid" y="5" />
+                <lv_label text="Blush" align="bottom_mid" y="-5" />
             </lv_button>
 
-            <lv_button width="104" height="86" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4" flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center">
-                <lv_image src="images/cat_idle.png" />
-                <lv_label text="B &amp; W" />
+            <lv_button width="104" height="86" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4">
+                <lv_image src="images/cat_idle.png" align="top_mid" y="5" />
+                <lv_label text="B and W" align="bottom_mid" y="-5" />
             </lv_button>
         </lv_obj>
     </view>
