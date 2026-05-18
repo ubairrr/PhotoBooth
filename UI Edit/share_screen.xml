@@ -1,25 +1,25 @@
 <component>
     <view>
-        <lv_obj id="root" width="240" height="320" bg_color="#FFE4E1">
+        <obj id="root" width="240" height="320" bg_color="#FFE4E1">
             
             <!-- Header -->
-            <lv_obj id="header" width="100%" height="40" bg_color="#FFFFFF" bg_opa="200" flex_flow="row" flex_main_place="center" flex_cross_place="center">
-                <lv_label text="Sharing Gallery" />
-            </lv_obj>
+            <obj id="header" width="100%" height="40" bg_color="#FFFFFF" bg_opa="200" flex_flow="row" flex_main_place="center" flex_cross_place="center">
+                <label text="Sharing Gallery" />
+            </obj>
 
             <!-- QR Code and Info -->
-            <lv_img src="images/img_qr_code.png" x="40" y="42" />
+            <img src="images/img_qr_code.png" x="40" y="42" />
 
-            <lv_label text="1. WiFi: Maryam's Gallery" x="14" y="204" text_color="#FF69B4" />
-            <lv_label text="   Pass: photobooth" x="14" y="222" />
-            <lv_label text="2. Scan QR to view photos" x="14" y="240" text_opa="180" />
+            <label text="1. WiFi: Maryam's Gallery" x="14" y="204" text_color="#FF69B4" />
+            <label text="   Pass: photobooth" x="14" y="222" />
+            <label text="2. Scan QR to view photos" x="14" y="240" text_opa="180" />
 
             <!-- Footer -->
-            <lv_obj id="footer" width="100%" height="46" align="bottom_mid" bg_color="#FFFFFF" flex_flow="row" flex_main_place="center" flex_cross_place="center">
-                <lv_btn id="btn_stop" width="200" height="40" bg_color="#FF69B4">
-                    <lv_label text="Stop Sharing" align="center" />
-                </lv_btn>
-            </lv_obj>
-        </lv_obj>
+            <obj id="footer" width="100%" height="46" align="bottom_mid" bg_color="#FFFFFF" flex_flow="row" flex_main_place="center" flex_cross_place="center">
+                <button id="btn_stop" width="200" height="40" bg_color="#FF69B4">
+                    <label text="Stop Sharing" align="center" />
+                </button>
+            </obj>
+        </obj>
     </view>
 </component>
