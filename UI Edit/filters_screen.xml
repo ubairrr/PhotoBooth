@@ -1,59 +1,59 @@
 <component>
     <view>
-        <obj id="root" width="240" height="320" bg_color="#FFE4E1" flex_flow="column">
+        <lv_obj id="root" width="240" height="320" bg_color="0xFFE4E1" flex_flow="column">
             
             <!-- Header -->
-            <obj id="header" width="100%" height="42" bg_color="#FFFFFF" bg_opa="200" flex_flow="row" flex_main_place="space_between" flex_cross_place="center">
-                <label text="Filters" />
-                <button id="btn_close" width="34" height="34" bg_color="#FFB6C1">
-                    <label text="X" align="center" />
-                </button>
-            </obj>
+            <lv_obj id="header" width="100%" height="42" bg_color="0xFFFFFF" bg_opa="200" flex_flow="row" flex_main_place="space_between" flex_cross_place="center">
+                <lv_label text="Filters" />
+                <lv_button id="btn_close" width="34" height="34" bg_color="0xFFB6C1">
+                    <lv_label text="X" align="center" />
+                </lv_button>
+            </lv_obj>
 
             <!-- Grid -->
-            <obj id="grid" width="100%" height="278" bg_opa="0" flex_flow="row_wrap" pad_all="8" pad_row="8" pad_column="8">
+            <lv_obj id="grid" width="100%" height="278" bg_opa="0" flex_flow="row_wrap" pad_all="8" pad_row="8" pad_column="8">
                 
-                <button width="104" height="86" bg_color="#FFFFFF" border_width="1" border_color="#FF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
-                    <img src="images/cat_idle.png" />
-                    <label text="Normal" />
-                </button>
+                <lv_button width="104" height="86" bg_color="0xFFFFFF" border_width="1" border_color="0xFF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
+                    <lv_image src="images/cat_idle.png" />
+                    <lv_label text="Normal" />
+                </lv_button>
 
-                <button width="104" height="86" bg_color="#FFFFFF" border_width="1" border_color="#FF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
-                    <img src="images/cat_idle.png" />
-                    <label text="Vivid" />
-                </button>
+                <lv_button width="104" height="86" bg_color="0xFFFFFF" border_width="1" border_color="0xFF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
+                    <lv_image src="images/cat_idle.png" />
+                    <lv_label text="Vivid" />
+                </lv_button>
 
-                <button width="104" height="86" bg_color="#FFFFFF" border_width="1" border_color="#FF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
-                    <img src="images/cat_idle.png" />
-                    <label text="Blush" />
-                </button>
+                <lv_button width="104" height="86" bg_color="0xFFFFFF" border_width="1" border_color="0xFF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
+                    <lv_image src="images/cat_idle.png" />
+                    <lv_label text="Blush" />
+                </lv_button>
 
-                <button width="104" height="86" bg_color="#FFFFFF" border_width="1" border_color="#FF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
-                    <img src="images/cat_idle.png" />
-                    <label text="B &amp; W" />
-                </button>
+                <lv_button width="104" height="86" bg_color="0xFFFFFF" border_width="1" border_color="0xFF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
+                    <lv_image src="images/cat_idle.png" />
+                    <lv_label text="B &amp; W" />
+                </lv_button>
 
-                <button width="104" height="86" bg_color="#FFFFFF" border_width="1" border_color="#FF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
-                    <img src="images/cat_idle.png" />
-                    <label text="Sepia" />
-                </button>
+                <lv_button width="104" height="86" bg_color="0xFFFFFF" border_width="1" border_color="0xFF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
+                    <lv_image src="images/cat_idle.png" />
+                    <lv_label text="Sepia" />
+                </lv_button>
 
-                <button width="104" height="86" bg_color="#FFFFFF" border_width="1" border_color="#FF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
-                    <img src="images/cat_idle.png" />
-                    <label text="Invert" />
-                </button>
+                <lv_button width="104" height="86" bg_color="0xFFFFFF" border_width="1" border_color="0xFF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
+                    <lv_image src="images/cat_idle.png" />
+                    <lv_label text="Invert" />
+                </lv_button>
 
-                <button width="104" height="86" bg_color="#FFFFFF" border_width="1" border_color="#FF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
-                    <img src="images/cat_idle.png" />
-                    <label text="Warm" />
-                </button>
+                <lv_button width="104" height="86" bg_color="0xFFFFFF" border_width="1" border_color="0xFF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
+                    <lv_image src="images/cat_idle.png" />
+                    <lv_label text="Warm" />
+                </lv_button>
 
-                <button width="104" height="86" bg_color="#FFFFFF" border_width="1" border_color="#FF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
-                    <img src="images/cat_idle.png" />
-                    <label text="Cool" />
-                </button>
+                <lv_button width="104" height="86" bg_color="0xFFFFFF" border_width="1" border_color="0xFF69B4" flex_flow="column" flex_main_place="center" flex_cross_place="center">
+                    <lv_image src="images/cat_idle.png" />
+                    <lv_label text="Cool" />
+                </lv_button>
 
-            </obj>
-        </obj>
+            </lv_obj>
+        </lv_obj>
     </view>
 </component>
