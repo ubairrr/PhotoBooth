@@ -1,0 +1,39 @@
+<component>
+    <view>
+        <lv_obj id="root" width="240" height="320" bg_color="#FFE4E1" flex_flow="column">
+            
+            <!-- Header -->
+            <lv_obj id="header" width="100%" height="42" bg_color="#FFFFFF" bg_opa="200" flex_flow="row" flex_main_place="space_between" flex_cross_place="center" pad_left="10" pad_right="10">
+                <lv_label text="Settings" />
+                <lv_btn id="btn_back" width="34" height="34" bg_color="#FFB6C1">
+                    <lv_label text="&lt;" align="center" />
+                </lv_btn>
+            </lv_obj>
+
+            <!-- Content -->
+            <lv_obj id="content" width="100%" height="278" bg_opa="0" flex_flow="column" flex_cross_place="center" pad_all="10" pad_row="10">
+                
+                <lv_btn width="220" height="44" bg_color="#FFFFFF" radius="8" border_width="1" border_color="#FF69B4" flex_flow="row" flex_main_place="space_between" flex_cross_place="center" pad_left="10" pad_right="10">
+                    <lv_label text="Countdown" />
+                    <lv_label text="Off" text_color="#FF69B4" />
+                </lv_btn>
+
+                <lv_btn width="220" height="44" bg_color="#FFFFFF" radius="8" border_width="1" border_color="#FF69B4" flex_flow="row" flex_main_place="space_between" flex_cross_place="center" pad_left="10" pad_right="10">
+                    <lv_label text="Filter" />
+                    <lv_label text="Original" text_color="#FF69B4" />
+                </lv_btn>
+
+                <lv_btn width="220" height="44" bg_color="#FFFFFF" radius="8" border_width="1" border_color="#FF69B4" flex_flow="row" flex_main_place="space_between" flex_cross_place="center" pad_left="10" pad_right="10">
+                    <lv_label text="Photobooth Style" />
+                    <lv_label text="On" text_color="#FF69B4" />
+                </lv_btn>
+
+                <lv_btn width="220" height="44" bg_color="#FFFFFF" radius="8" border_width="1" border_color="#FF69B4" flex_flow="row" flex_main_place="space_between" flex_cross_place="center" pad_left="10" pad_right="10">
+                    <lv_label text="About" />
+                    <lv_label text="PhotoBooth" text_color="#FF69B4" />
+                </lv_btn>
+
+            </lv_obj>
+        </lv_obj>
+    </view>
+</component>

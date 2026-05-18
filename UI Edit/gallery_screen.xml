@@ -1,0 +1,56 @@
+<component>
+    <view>
+        <lv_obj id="root" width="240" height="320" bg_color="#FFE4E1">
+            
+            <!-- Shared Header -->
+            <lv_obj id="header" width="100%" height="44" align="top_mid" bg_color="#FFFFFF" bg_opa="200" flex_flow="row" flex_main_place="space_between" flex_cross_place="center" pad_left="10" pad_right="10">
+                <lv_label text="Gallery" />
+                <lv_btn id="btn_share" width="60" height="36" bg_color="#FF69B4">
+                    <lv_label text="Share" align="center" />
+                </lv_btn>
+                <lv_btn id="btn_back_main" width="40" height="36" bg_color="#FFB6C1">
+                    <lv_label text="&lt;" align="center" />
+                </lv_btn>
+            </lv_obj>
+
+            <!-- Grid View -->
+            <lv_obj id="grid_view" width="100%" height="236" y="44" bg_opa="0" flex_flow="row_wrap" pad_all="6" scroll_dir="y">
+                <!-- Mock thumbnail cards -->
+                <lv_obj width="80" height="106" bg_color="#FFFFFF" border_width="1" border_color="#FF69B4" radius="4">
+                    <lv_img src="images/cat_idle.png" align="center" />
+                </lv_obj>
+                <lv_obj width="80" height="106" bg_color="#FFFFFF" border_width="1" border_color="#FF69B4" radius="4">
+                    <lv_img src="images/cat_happy.png" align="center" />
+                </lv_obj>
+            </lv_obj>
+
+            <!-- Grid Pagination Footer -->
+            <lv_obj id="grid_footer" width="100%" height="40" align="bottom_mid" bg_color="#FFFFFF" flex_flow="row" flex_main_place="space_around" flex_cross_place="center">
+                <lv_btn id="btn_prev" width="50" height="32" bg_color="#FFB6C1">
+                    <lv_label text="&lt;" align="center" />
+                </lv_btn>
+                <lv_label id="page_label" text="1 / 1" />
+                <lv_btn id="btn_next" width="50" height="32" bg_color="#FFB6C1">
+                    <lv_label text="&gt;" align="center" />
+                </lv_btn>
+            </lv_obj>
+
+            <!-- Detail View (Hidden by default) -->
+            <lv_obj id="detail_view" width="100%" height="100%" bg_color="#FFE4E1" hidden="true">
+                <lv_canvas id="detail_canvas" width="100%" height="100%" bg_color="#000000" />
+                <lv_label id="detail_status" text="" align="center" />
+
+                <!-- Detail Footer -->
+                <lv_obj id="detail_footer" width="100%" height="56" align="bottom_mid" bg_color="#FFFFFF" flex_flow="row" flex_main_place="space_around" flex_cross_place="center">
+                    <lv_btn id="btn_detail_back" width="90" height="38" bg_color="#FFB6C1">
+                        <lv_label text="Back" align="center" />
+                    </lv_btn>
+                    <lv_btn id="btn_detail_del" width="90" height="38" bg_color="#FF69B4">
+                        <lv_label text="Delete" align="center" />
+                    </lv_btn>
+                </lv_obj>
+            </lv_obj>
+
+        </lv_obj>
+    </view>
+</component>

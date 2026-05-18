@@ -1,0 +1,23 @@
+<component>
+    <view>
+        <lv_obj id="root" width="240" height="320" bg_color="#FFE4E1">
+            <lv_canvas id="canvas" width="100%" height="100%" bg_color="#000000" />
+            
+            <lv_obj id="top_bar" width="100%" height="40" align="top_mid" bg_color="#FFFFFF" bg_opa="200">
+                <lv_label text="Preview" align="center" />
+            </lv_obj>
+
+            <lv_label id="status_label" text="Waiting for capture..." align="center" />
+
+            <lv_obj id="bottom_bar" width="100%" height="70" align="bottom_mid" bg_color="#FFFFFF" flex_flow="row" flex_main_place="space_around" flex_cross_place="center">
+                <lv_btn id="btn_retake" width="82" height="40" bg_color="#FFB6C1">
+                    <lv_label text="Retake" align="center" />
+                </lv_btn>
+
+                <lv_btn id="btn_save" width="82" height="40" bg_color="#FF69B4">
+                    <lv_label text="Save" align="center" />
+                </lv_btn>
+            </lv_obj>
+        </lv_obj>
+    </view>
+</component>
