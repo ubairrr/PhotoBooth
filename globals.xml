@@ -1,0 +1,11 @@
+<globals>
+    <consts>
+        <int name="unit_sm" value="6" />
+        <int name="unit_md" value="12" />
+        <int name="unit_lg" value="18" />
+        <color name="primary" value="0xFF69B4" />
+        <color name="bg_main" value="0xFFE4E1" />
+        <color name="white" value="0xFFFFFF" />
+        <color name="black" value="0x000000" />
+    </consts>
+</globals>
