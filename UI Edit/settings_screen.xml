@@ -1,39 +1,34 @@
-<component>
-    <view>
-        <lv_obj id="root" width="240" height="320" style_bg_color="0xFFE4E1" flex_flow="column">
-            
-            <!-- Header -->
-            <lv_obj id="header" width="100p" height="42" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" flex_align_main="space_between" flex_align_cross="center" style_pad_left="10" style_pad_right="10">
-                <lv_label text="Settings" />
-                <lv_button id="btn_back" width="34" height="34" style_bg_color="0xFFB6C1">
-                    <lv_label text="&lt;" align="center" />
-                </lv_button>
-            </lv_obj>
+<screen>
+    <view style_bg_color="0xFFE4E1" width="100%" height="100%">
+        <!-- Header -->
+        <lv_obj width="100%" height="42" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" style_flex_align_main="space_between" style_flex_align_cross="center" style_pad_left="10" style_pad_right="10">
+            <lv_label text="Settings" />
+            <lv_button id="btn_back" width="34" height="34" style_bg_color="0xFFB6C1">
+                <lv_label text="<" align="center" />
+            </lv_button>
+        </lv_obj>
 
-            <!-- Content -->
-            <lv_obj id="content" width="100p" height="278" style_bg_opa="0" flex_flow="column" flex_align_cross="center" style_pad_all="10" style_pad_row="10">
-                
-                <lv_button width="220" height="44" style_bg_color="0xFFFFFF" style_radius="8" style_border_width="1" style_border_color="0xFF69B4" flex_flow="row" flex_align_main="space_between" flex_align_cross="center" style_pad_left="10" style_pad_right="10">
-                    <lv_label text="Countdown" />
-                    <lv_label text="Off" style_text_color="0xFF69B4" />
-                </lv_button>
+        <!-- Content -->
+        <lv_obj width="100%" height="278" y="42" style_bg_opa="0" flex_flow="column" style_flex_align_cross="center" style_pad_all="10" style_pad_row="10">
+            <lv_button width="220" height="44" style_bg_color="0xFFFFFF" style_radius="8" style_border_width="1" style_border_color="0xFF69B4" flex_flow="row" style_flex_align_main="space_between" style_flex_align_cross="center" style_pad_left="10" style_pad_right="10">
+                <lv_label text="Countdown" />
+                <lv_label text="Off" style_text_color="0xFF69B4" />
+            </lv_button>
 
-                <lv_button width="220" height="44" style_bg_color="0xFFFFFF" style_radius="8" style_border_width="1" style_border_color="0xFF69B4" flex_flow="row" flex_align_main="space_between" flex_align_cross="center" style_pad_left="10" style_pad_right="10">
-                    <lv_label text="Filter" />
-                    <lv_label text="Original" style_text_color="0xFF69B4" />
-                </lv_button>
+            <lv_button width="220" height="44" style_bg_color="0xFFFFFF" style_radius="8" style_border_width="1" style_border_color="0xFF69B4" flex_flow="row" style_flex_align_main="space_between" style_flex_align_cross="center" style_pad_left="10" style_pad_right="10">
+                <lv_label text="Filter" />
+                <lv_label text="Original" style_text_color="0xFF69B4" />
+            </lv_button>
 
-                <lv_button width="220" height="44" style_bg_color="0xFFFFFF" style_radius="8" style_border_width="1" style_border_color="0xFF69B4" flex_flow="row" flex_align_main="space_between" flex_align_cross="center" style_pad_left="10" style_pad_right="10">
-                    <lv_label text="Photobooth Style" />
-                    <lv_label text="On" style_text_color="0xFF69B4" />
-                </lv_button>
+            <lv_button width="220" height="44" style_bg_color="0xFFFFFF" style_radius="8" style_border_width="1" style_border_color="0xFF69B4" flex_flow="row" style_flex_align_main="space_between" style_flex_align_cross="center" style_pad_left="10" style_pad_right="10">
+                <lv_label text="Photobooth Style" />
+                <lv_label text="On" style_text_color="0xFF69B4" />
+            </lv_button>
 
-                <lv_button width="220" height="44" style_bg_color="0xFFFFFF" style_radius="8" style_border_width="1" style_border_color="0xFF69B4" flex_flow="row" flex_align_main="space_between" flex_align_cross="center" style_pad_left="10" style_pad_right="10">
-                    <lv_label text="About" />
-                    <lv_label text="PhotoBooth" style_text_color="0xFF69B4" />
-                </lv_button>
-
-            </lv_obj>
+            <lv_button width="220" height="44" style_bg_color="0xFFFFFF" style_radius="8" style_border_width="1" style_border_color="0xFF69B4" flex_flow="row" style_flex_align_main="space_between" style_flex_align_cross="center" style_pad_left="10" style_pad_right="10">
+                <lv_label text="About" />
+                <lv_label text="PhotoBooth" style_text_color="0xFF69B4" />
+            </lv_button>
         </lv_obj>
     </view>
-</component>
+</screen>

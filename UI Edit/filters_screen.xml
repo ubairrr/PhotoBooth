@@ -1,28 +1,34 @@
 <screen>
-    <styles>
-        <style name="bg_style" bg_color="0xFFE4E1" />
-        <style name="header_style" bg_color="0xFFFFFF" bg_opa="200" />
-        <style name="card_style" bg_color="0xFFFFFF" border_width="1" border_color="0xFF69B4" />
-    </styles>
-
-    <view style="bg_style" flex_flow="column" width="100%" height="100%">
-        
+    <view style_bg_color="0xFFE4E1" width="100%" height="100%" flex_flow="column">
         <!-- Header -->
-        <row width="100%" height="42" style="header_style" style_flex_main_place="space_between" style_flex_cross_place="center">
-            <label text="Filters" />
-            <button width="34" height="34" style_bg_color="0xFFB6C1" label="X" />
-        </row>
+        <lv_obj width="100%" height="42" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" style_flex_align_main="space_between" style_flex_align_cross="center" style_pad_left="10" style_pad_right="10">
+            <lv_label text="Filters" />
+            <lv_button width="34" height="34" style_bg_color="0xFFB6C1">
+                <lv_label text="X" align="center" />
+            </lv_button>
+        </lv_obj>
 
         <!-- Grid -->
-        <div width="100%" flex_grow="1" style_bg_opa="0" flex_flow="row_wrap" style_pad_all="8" style_pad_row="8" style_pad_column="8">
-            <button width="104" height="86" style="card_style" flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center">
-                <image src="images/cat_idle.png" />
-                <label text="Normal" />
-            </button>
-            <button width="104" height="86" style="card_style" flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center">
-                <image src="images/cat_idle.png" />
-                <label text="Vivid" />
-            </button>
-        </div>
+        <lv_obj width="100%" flex_grow="1" style_bg_opa="0" flex_flow="row_wrap" style_pad_all="8" style_pad_row="8" style_pad_column="8" scroll_dir="y">
+            <lv_button width="104" height="86" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4" flex_flow="column" style_flex_align_main="center" style_flex_align_cross="center">
+                <lv_image src="images/cat_idle.png" />
+                <lv_label text="Normal" />
+            </lv_button>
+
+            <lv_button width="104" height="86" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4" flex_flow="column" style_flex_align_main="center" style_flex_align_cross="center">
+                <lv_image src="images/cat_idle.png" />
+                <lv_label text="Vivid" />
+            </lv_button>
+
+            <lv_button width="104" height="86" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4" flex_flow="column" style_flex_align_main="center" style_flex_align_cross="center">
+                <lv_image src="images/cat_idle.png" />
+                <lv_label text="Blush" />
+            </lv_button>
+
+            <lv_button width="104" height="86" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4" flex_flow="column" style_flex_align_main="center" style_flex_align_cross="center">
+                <lv_image src="images/cat_idle.png" />
+                <lv_label text="B &amp; W" />
+            </lv_button>
+        </lv_obj>
     </view>
 </screen>
