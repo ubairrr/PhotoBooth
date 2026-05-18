@@ -1,16 +1,16 @@
 <screen>
     <view style_bg_color="0xFFE4E1" width="100%" height="100%">
         <!-- Header -->
-        <lv_obj width="100%" height="42" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" style_flex_main_place="space_between" style_flex_cross_place="center" style_pad_left="10" style_pad_right="10">
+        <view width="100%" height="42" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" style_flex_main_place="space_between" style_flex_cross_place="center" style_pad_left="10" style_pad_right="10">
             <lv_label text="About" />
-            <lv_button width="34" height="34" style_bg_color="0xFFB6C1">
+            <view extends="lv_button" width="34" height="34" style_bg_color="0xFFB6C1">
                 <lv_label text="&lt;" align="center" />
-            </lv_button>
-        </lv_obj>
+            </view>
+        </view>
 
         <!-- Content -->
-        <lv_obj width="100%" height="278" y="42" style_bg_opa="0" flex_flow="column" style_pad_all="10" scroll_dir="y">
+        <view width="100%" height="278" y="42" style_bg_opa="0" flex_flow="column" style_pad_all="10" scroll_dir="y">
             <lv_label width="220" text="Created by: Ubairrr&#xA;Frontend made on LVGL&#xA;&#xA;Hardware Specs:&#xA;ESP32-S3 16MB Flash, 8MB RAM.&#xA;Display: ILI9341 240x320" />
-        </lv_obj>
+        </view>
     </view>
 </screen>
