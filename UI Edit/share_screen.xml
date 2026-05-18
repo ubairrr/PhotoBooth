@@ -1,7 +1,7 @@
 <screen>
     <view style_bg_color="0xFFE4E1" width="100%" height="100%">
         <!-- Header -->
-        <lv_obj width="100%" height="40" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" style_flex_align_main="center" style_flex_align_cross="center">
+        <lv_obj width="100%" height="40" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" style_flex_main_place="center" style_flex_cross_place="center">
             <lv_label text="Sharing Gallery" />
         </lv_obj>
 
@@ -12,7 +12,7 @@
         <lv_label text="2. Scan QR to view photos" x="14" y="240" style_text_opa="180" />
 
         <!-- Footer -->
-        <lv_obj width="100%" height="46" align="bottom_mid" style_bg_color="0xFFFFFF" flex_flow="row" style_flex_align_main="center" style_flex_align_cross="center">
+        <lv_obj width="100%" height="46" align="bottom_mid" style_bg_color="0xFFFFFF" flex_flow="row" style_flex_main_place="center" style_flex_cross_place="center">
             <lv_button width="200" height="40" style_bg_color="0xFF69B4" style_radius="8">
                 <lv_label text="Stop Sharing" align="center" style_text_color="0xFFFFFF" />
             </lv_button>

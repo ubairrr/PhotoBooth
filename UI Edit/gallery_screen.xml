@@ -1,9 +1,9 @@
 <screen>
     <view style_bg_color="0xFFE4E1" width="100%" height="100%">
         <!-- Header -->
-        <lv_obj width="100%" height="42" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" style_flex_align_main="space_between" style_flex_align_cross="center">
+        <lv_obj width="100%" height="42" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" style_flex_main_place="space_between" style_flex_cross_place="center">
             <lv_button id="btn_back" width="34" height="34" style_bg_color="0xFFB6C1" style_radius="8">
-                <lv_label text="<" align="center" style_text_color="0xFFFFFF" />
+                <lv_label text="&lt;" align="center" style_text_color="0xFFFFFF" />
             </lv_button>
             <lv_label text="Gallery" style_text_color="0xFF69B4" />
             <lv_button id="btn_share" width="34" height="34" style_bg_color="0xFFB6C1" style_radius="8">
@@ -22,7 +22,7 @@
         </lv_obj>
 
         <!-- Footer Pagination -->
-        <lv_obj width="100%" height="42" align="bottom_mid" style_bg_color="0xFFFFFF" flex_flow="row" style_flex_align_main="space_around" style_flex_align_cross="center">
+        <lv_obj width="100%" height="42" align="bottom_mid" style_bg_color="0xFFFFFF" flex_flow="row" style_flex_main_place="space_around" style_flex_cross_place="center">
             <lv_button width="40" height="30" style_bg_color="0xFFB6C1">
                 <lv_label text="Prev" align="center" style_text_color="0xFFFFFF" />
             </lv_button>
