@@ -3,7 +3,7 @@
         <!-- Header -->
         <lv_obj width="100%" height="42" style_bg_color="0xFFFFFF" style_bg_opa="200" flex_flow="row" style_flex_main_place="space_between" style_flex_cross_place="center" style_pad_left="10" style_pad_right="10">
             <lv_label text="Settings" />
-            <lv_button id="btn_back" width="34" height="34" style_bg_color="0xFFB6C1">
+            <lv_button name="btn_back" width="34" height="34" style_bg_color="0xFFB6C1">
                 <lv_label text="&lt;" align="center" />
             </lv_button>
         </lv_obj>
