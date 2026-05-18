@@ -1,0 +1,14 @@
+<screen>
+    <view style_bg_color="0xFFE4E1" width="100%" height="100%">
+        <lv_obj id="preview_box" width="220" height="240" align="center" y="-20" style_bg_color="0x000000" style_radius="10" />
+
+        <lv_obj width="100%" height="50" align="bottom_mid" style_bg_opa="0" flex_flow="row" style_flex_main_place="space_around" style_flex_cross_place="center">
+            <lv_button id="btn_cancel" width="80" height="40" style_bg_color="0xFFFFFF" style_border_width="1" style_border_color="0xFF69B4" style_radius="8">
+                <lv_label text="Retake" align="center" style_text_color="0xFF69B4" />
+            </lv_button>
+            <lv_button id="btn_save" width="80" height="40" style_bg_color="0xFF69B4" style_radius="8">
+                <lv_label text="Save" align="center" style_text_color="0xFFFFFF" />
+            </lv_button>
+        </lv_obj>
+    </view>
+</screen>
